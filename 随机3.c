@@ -71,8 +71,7 @@ int main()
 		i++;
 		c--;
 	}  
-	system("cls"); //怎么突出显示 
-	
+	system("cls"); //突出显示 
 	printf("\n\n\n\n\n\n\n\n\t\t\t \t*****************\n\n"); 
 	printf("\t\t\t\t\t\b\b\b结果：%d\n\n",a);
 	printf("\n\n\t\t\t \t*****************\n\n");
