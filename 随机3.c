@@ -4,11 +4,9 @@
 #include<time.h>
 int main()
 {
-
 	int container[100];//记录随机数据的数组 
 	int num=1;
 	char be[3]={"re"};//判断循环 
-	char be[3]={"re"};
 	while(be!="re"||be!='r'||be!='R')
 	{
 	system("cls");
@@ -47,34 +45,16 @@ int main()
 		container[count]=a;
 		printf("%4d",a);
 		printf("\b\b\b\b");
-	printf("\t\t\t\t\t");
-	scanf("%d",&b);
-	printf("********************************************************************************\n\n\n");
-	printf("请输入滚动次数：\n");
-	printf("********************************************************************************\n"); 
-	printf("\t\t\t\t\t");
-	scanf("\t\t\t\t\t%d",&c);
-	printf("********************************************************************************\n\n\n");
-	
-	while(c!=0)
-	{//格式化 
-		srand(time(NULL));
-		u=(rand()+i)%99;
-		a=(rand()+u)%b+1;
-		if(a==0)
-		{
-			printf(" \b");
-		}
-		printf("\t\t%2d",a);
-		printf("\b\b");
 		Sleep(25);
 		i++;
 		c--;
 	}  
-	system("cls"); //突出显示 
+	system("cls"); //怎么突出显示 
+	
 	printf("\n\n\n\n\n\n\n\n\t\t\t \t*****************\n\n"); 
 	printf("\t\t\t\t\t\b\b\b结果：%d\n\n",a);
 	printf("\n\n\t\t\t \t*****************\n\n");
+	
 	scanf("%s",&u);
 	num++;
 	}
